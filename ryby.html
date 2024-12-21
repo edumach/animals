@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- Styly W3.CSS -->
+    <link rel="stylesheet" href="css/styly.css"> <!-- Vlastní styly -->
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script src="https://www.edumach.cz/html/js/animals.js"></script> <!-- Načtení JavaScriptu -->
+    <style>
+        .container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%;
+            /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        }
+
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="hlava"></div>
+    <div id="menu"></div>
+
+    <div class="w3-container w3-teal">
+        <h2>Ryby: Vládci vodního světa</h2>
+    </div>
+
+    <div class="w3-card-4 w3-margin w3-padding w3-center w3-blue-gray">
+        <h3>Kosatka dravá</h3>
+        <p>Kosatka dravá (<i>Orcinus orca</i>), známá také jako kosatka pravá či kosatka velká, je největším zástupcem
+            čeledi delfínovití. Je všestranným predátorem stojícím na vrcholu mořského potravního řetězce. Požírá ryby,
+            želvy, ptáky, ploutvonožce, žraloky a také jiné kytovce.</p>
+        <audio src="https://upload.wikimedia.org/wikipedia/commons/7/79/Killer_whale.ogg" controls>
+        </audio>
+        <p>Zdroj: <a href="https://cs.wikipedia.org/wiki/Kosatka_drav%C3%A1">Wikipedie</a></p>
+    </div>
+
+    <div class="w3-card-4 w3-margin w3-padding w3-center w3-black">
+        <h3>Velký bariérový útes</h3>
+        <video controls style="max-width: 80%;">
+            <source src="https://www.edumach.cz/files/utes.mp4" type="video/mp4">
+        </video>
+        <p>Zdroj:
+            <a href="https://www.youtube.com/@nationalgeographiccz2624">
+                National Geographic CZ
+            </a>
+        </p>
+    </div>
+
+
+    <div class="w3-card-4 w3-margin w3-padding w3-center w3-blue">
+
+        <div class="container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/WNdR808jMSA">
+            </iframe>
+        </div>
+
+        <p>Zdroj: <a href="https://www.youtube.com/@TEDEd">TED-Ed</a></p>
+    </div>
+
+    <div id="zapati"></div>
+</body>
+
+</html>

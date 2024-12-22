@@ -17,9 +17,115 @@
     <div id="hlava"></div>
     <div id="menu"></div>
 
-    <div class="w3-container w3-teal w3-margin-bottom">
+    <div class="w3-container w3-teal">
         <h2>Obojživelníci: Dvojí život na souši a ve vodě</h2>
     </div>
+
+    <div class="w3-container">
+        <p>Obojživelníci, jako jsou žáby, čolci nebo mloci, představují jedinečnou skupinu živočichů, kteří se dokáží
+            přizpůsobit životu jak ve vodě, tak na souši. Jejich životní cyklus je úzce spojen s vodním prostředím, kde
+            se rozmnožují a probíhá jejich larvální vývoj. Dospělí jedinci se pak často přesunují na souš, kde loví
+            potravu a vyhledávají úkryty. Tato unikátní vlastnost je odrážena i v jejich názvu – obojživelníci. Jejich
+            těla prošla fascinující evolucí, která jim umožnila kolonizovat rozmanité ekosystémy po celém světě. Od
+            tropických pralesů až po chladné horské oblasti, obojživelníci hrají důležitou roli v potravních řetězcích a
+            jsou významnými indikátory stavu životního prostředí.
+        </p>
+        <p>V České republice se můžeme setkat s celou řadou druhů obojživelníků. Mezi nejznámější patří různé druhy
+            skokanů, ropuch, rosniček a mloků. Skokan hnědý je snad nejrozšířenějším druhem žáby u nás, zatímco mlok
+            skvrnitý je typickým zástupcem ocasatých obojživelníků. Zajímavostí je například kuňka obecná, která se
+            vyznačuje výrazně bradavčitou kůží a schopností vydávat charakteristické zvuky. Bohužel, mnoho druhů
+            obojživelníků čelí v současnosti vážným hrozbám, jako je ztráta přirozeného prostředí, znečištění vody a
+            klimatické změny.
+        </p>
+    </div>
+
+    <div class="w3-container">
+        <div class="w3-row-padding w3-margin">
+            <div class="w3-quarter">
+                <div class="w3-card">
+                    <img src="https://www.edumach.cz/img/animals/skokan.jpeg" class="w3-image">
+                    <div class="w3-container">
+                        <h5>Skokan hnědý</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-card">
+                    <img src="https://www.edumach.cz/img/animals/ropucha.jpeg" class="w3-image">
+                    <div class="w3-container">
+                        <h5>Ropucha obecná</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-card">
+                    <img src="https://www.edumach.cz/img/animals/rosnicka.jpeg" class="w3-image">
+                    <div class="w3-container">
+                        <h5>Rosnička zelená</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-card">
+                    <img src="https://www.edumach.cz/img/animals/mlok.jpeg" class="w3-image">
+                    <div class="w3-container">
+                        <h5>Mlok skvrnitý</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-container">
+        <div class="w3-card-4">
+            <div class="w3-container w3-green">
+                <h3>Hlášení o pozorování obojživelníka</h3>
+            </div>
+
+            <form class="w3-container w3-pale-green" method="get" action="https://edumach.cz/img/animals/form.php">
+                <p>
+                    <label>Druh obojživelníka:</label>
+                    <select class="w3-select" name="druh">
+                        <option value="skokan">Skokan hnědý</option>
+                        <option value="ropucha">Ropucha obecná</option>
+                        <option value="rosnicka">Rosnička zelená</option>
+                        <option value="mlok">Mlok skvrnitý</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Místo:</label>
+                    <input class="w3-input" type="text" name="misto">
+                </p>
+                <p>
+                    <label>Prostředí:</label><br>
+                    <input class="w3-check" type="checkbox" name="prostredi[]" value="les"> Les<br>
+                    <input class="w3-check" type="checkbox" name="prostredi[]" value="louka"> Louka<br>
+                    <input class="w3-check" type="checkbox" name="prostredi[]" value="pole"> Pole<br>
+                    <input class="w3-check" type="checkbox" name="prostredi[]" value="rybnik"> Rybník<br>
+                    <input class="w3-check" type="checkbox" name="prostredi[]" value="tunka"> Tůňka<br>
+                </p>
+                <p>
+                    <label>Stav jedince:</label><br>
+                    <input class="w3-radio" type="radio" name="stav" value="1"> Výborný<br>
+                    <input class="w3-radio" type="radio" name="stav" value="2"> Velmi dobrý<br>
+                    <input class="w3-radio" type="radio" name="stav" value="3"> Dobrý<br>
+                    <input class="w3-radio" type="radio" name="stav" value="4"> Spíše špatný<br>
+                    <input class="w3-radio" type="radio" name="stav" value="5"> Velmi špatný<br>
+                    <input class="w3-radio" type="radio" name="stav" value="6"> Uhynulý<br>
+                </p>
+                <p>
+                    <label>Datum pozorování:</label><br>
+                    <input class="w3-input" type="date" name="datum">
+                </p>
+                <p>
+                    <input class="w3-input w3-green" type="submit" value="Odeslat">
+                </p>
+            </form>
+        </div>
+    </div>
+
+
+
 
 
 

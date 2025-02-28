@@ -1,3 +1,0 @@
-# obsah webu nebude kesovan do mezipameti prohlizece
-User-agent: *
-Disallow: /

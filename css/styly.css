@@ -1,0 +1,8 @@
+/*
+Prostor pro vlastní styly
+*/
+
+/* Vlastní styl pro aktivní odkazy v navigaci*/
+a.active {
+    background-color: #4CAF50; /* Zelená barva */
+  }
